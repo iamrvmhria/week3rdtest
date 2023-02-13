@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 500vh;
+}
+
+.navbar {
+    list-style: none;
+
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 22px 20px;
+    padding: 2px;
+    color: #a69191;
+    font-size: 16px;
+
+
+}
+
+.logo {
+    display: flex;
+    width: 100vw;
+    height: 13vh;
+    justify-content: space-between;
+
+}
+
+.logo img {
+    width: 20vw;
+    border: #6e05de;
+    position: relative;
+    left: 2vw;
+    height: 7vh;
+    top: 3vh;
+}
+
+.Gbtn {
+    border-radius: 20px;
+    background-color: gold;
+    border: none;
+    color: #6e05de;
+    width: 15vw;
+    height: 5vh;
+    position: relative;
+    margin: 12px 30px;
+    font-size: 17px;
+}
+
+.mobholder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fleft {
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    height: 87vh;
+    /* border: 2px solid black; */
+}
+
+.fright {
+    display: flex;
+    justify-content: flex-end;
+    width: 50vw;
+    height: 87vh;
+}
+
+.h1tag {
+    height: 36vh;
+    font-size: 73px;
+    width: 43vw;
+    position: relative;
+    left: 7vw;
+    color: white;
+    top: 10vh;
+    /* flex-wrap: wrap; */
+}
+
+.p1tag {
+    position: relative;
+    left: 7vw;
+    color: #a69191;
+    top: 13vh;
+    width: 23vw;
+}
+
+.form label {
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: #6e05de;
+}
+
+.imgholder {
+    height: 87vh;
+    width: 50vw;
+    /* position: relative;
+    top: 3px; */
+}
+
+.store {
+    display: flex;
+    justify-content: space-around;
+    height: 12vh;
+    width: 43vw;
+    position: absolute;
+    bottom: 5vh;
+    left: 1vw;
+}
+
+.img1 {
+    height: 90px;
+    position: relative;
+    left: 35px;
+    width: 140px;
+}
+
+.img2 {
+    height: 65px;
+    width: 200px;
+    position: relative;
+    left: 5px;
+    top: 13px;
+}
+
+.img3 {
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: -6px;
+    top: 30px;
+}
+
+.first {
+    width: 100vw;
+    height: 100vh;
+    background-color: #6e05de;
+}
+
+.second {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    color: #625e5e;
+    height: 30vh;
+    width: 100vw;
+    margin-top: 10vh;
+    
+    /* font-size: larger; */
+}
+.watchtext{
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    width: 100vw;   
+}
+.watch{
+    width: 50vw;
+    height:70vh;
+}
+.clock {
+    display: flex;
+    align-items: flex-start;
+    height: 45vh;
+    width: 28vw;
+    position: relative;
+    left: 3vw;
+    top: 5vh;
+}
+
+.mobile {
+    display: flex;
+    align-items: flex-start;
+    height: 25vw;
+    width: 15vw;
+    transform: rotate(23deg);
+    position: relative;
+    left: 30vw;
+    top: -45vh;
+    z-index: -1;
+    /* box-shadow: 10px 13px 10px 10px black; */
+}
+.shadow1{
+    height: 18vh;
+    width: 42vw;
+    position: relative;
+    right: 15vw;
+    top: -41vh;
+}
+.shadow2{
+    height: 10vh;
+    width: 35vw;
+    position: relative;
+    right: -7vw;
+    top: -63vh;
+}
+.text21{
+    width: 50vw;
+    height: 70vh;
+    position: relative;
+   
+    /* bottom: 70px; */
+    /* right: -116px; */
+}
+.text22{
+    display: inline-block;
+    width: 30vw;
+    height: 18vh;
+    font-size: 35px;
+    /* text-align: center; */
+    position: relative;
+    left: 7vw;
+    top: 7vh;
+}
+.text23{
+    display: inline-block;
+    width: 30vw;
+    height: 12vh;
+    /* margin-top: 10px; */
+    font-size: 15px;
+    position: relative;
+    left: 7vw;
+    top: 7vh;
+}
+    
+
+.third {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #efefef;
+    /* justify-content: center; */
+}
+.text31{
+    height: 100vh ;
+    width: 50vw;
+}
+.mob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 100vh;
+}
+.img31{
+    height: 60vh;
+    width: 20vw;
+}
+.text32{
+    display: inline-block;
+    font-size: 35px;
+    position: relative;
+    top: 25vh;
+    left: 10vw;
+    /* width: 30vw;
+    height: 7vh; */
+}
+.text33{
+    display: inline-block;
+    font-size: 15px;
+    position: relative;
+    top: 25vh;
+    left: 10vw;
+    width: 27vw;
+    /* height: 10vh; */
+}
+.trans1{
+    opacity: 0.7;
+    margin: 5vh 0vh;
+}
+.trans2{
+    opacity: 0.3;
+}
+
+.fourth {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+.text41{
+    width: 50vw;
+    height: 100vh;
+
+}
+.plane{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rocket{
+    width: 15vw;
+    position: relative;
+    height: 50vh;
+    left: 122px;
+    top: -45px;
+}
+.smoke{
+    width: 25vw;
+    height: 30vh;
+    position: relative;
+    right: 155px;
+    top: 212px;
+}
+.text41{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text42{
+    display: inline-block;
+    font-size: 35px;
+    /* margin: 0px 15px; */
+    width: 37vw;
+    position: relative;
+    left: -15px;
+}
+.text43{
+    font-size: 15px;
+    margin: 20px 0px;
+    width: 44vh;
+    position: relative;
+    right: 60px;
+    
+}
+.fifth {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+.coin{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text51{
+    width: 50vw;
+    height: 100vh;
+}
+.goldcoin{
+    width: 50vh;
+    height: 50vh;
+}
+.text52{
+    /* margin: 0px 15px; */
+    width: 35vw;
+    display: inline-block;
+    font-size: 35px;
+    position: relative;
+    top: 30vh;
+    left: 10vw;
+}
+.text53{
+    font-size: 15px;
+    margin: 20px 0px;
+    width: 44vh;
+    position: relative;
+    top: 30vh;
+    left: 10vw;
+}
